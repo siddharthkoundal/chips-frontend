@@ -1,0 +1,28 @@
+:root {
+  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  color: #242d26;
+  background: #f5f3ed;
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  --color-background: #f5f3ed;
+  --color-surface: #fffefa;
+  --color-text: #242d26;
+  --color-muted: #62685d;
+  --color-accent: #30583e;
+  --color-border: #d8dace;
+  --color-input-border: #808777;
+  --color-chip: #edf2e8;
+  --color-chip-border: #cfdbc7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 280px;
+  margin: 0;
+}
